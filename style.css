@@ -1,0 +1,44 @@
+html, body{
+height: 100%;
+}
+
+body{
+  width: 80%;
+  margin: auto;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100%
+}
+header{
+  background-color: #CD5C5C;
+  height: 20%;
+  padding-left: 3px;
+}
+
+main{
+  height: 60%;
+  background-color: #FFA07A;
+  padding: 3px;
+}
+
+footer{
+  height: 20%;
+  background-color: #FA8072;
+}
+
+.copyright{
+  padding-top: 113px;
+  padding-left: 3px;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#article_content{
+  color: #900C3F;
+}
